@@ -60,12 +60,12 @@ header {
 .header-title {
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 1.5rem;
-	font-size: 3rem;
-	font-family: quickStarter;
 }
 
 .header-title h1 {
 	margin-block-end: 1.5rem;
+	font-size: 3rem;
+	font-family: quickStarter;
 }
 
 .header-title h2 {
