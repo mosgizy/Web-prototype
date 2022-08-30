@@ -15,6 +15,11 @@
 	--white: #ffffff;
 }
 
+@font-face {
+	font-family: quickStarter;
+	src: url(font/Quick\ Starter.ttf);
+}
+
 html {
 	font-family: 'Roboto', sans-serif;
 }
@@ -28,8 +33,9 @@ header {
 	display: grid;
 	place-items: center;
 	text-align: center;
-	background-image: url('assets/headerbg.jpg');
-	background-size: cover;
+	background-image: url('assets/headerBg.png');
+	background-size: contain;
+	background-color: black;
 	background-repeat: no-repeat;
 	background-position: center;
 	color: var(--white);
@@ -40,6 +46,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	gap: 2rem;
 	padding-inline: 1rem;
 }
 
@@ -53,6 +60,8 @@ header {
 .header-title {
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 1.5rem;
+	font-size: 3rem;
+	font-family: quickStarter;
 }
 
 .header-title h1 {
