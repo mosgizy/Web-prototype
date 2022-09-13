@@ -59,9 +59,9 @@ header {
 }
 
 .header-title {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.7);
 	padding: 2rem;
-	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+	box-shadow: -3px -7px 14px 11px rgba(0, 0, 0, 0.5);
 }
 
 .header-title h1 {
