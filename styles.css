@@ -33,11 +33,12 @@ header {
 	display: grid;
 	place-items: center;
 	text-align: center;
-	background-image: url('assets/headerBg.png');
-	background-size: contain;
+	background-image: url('assets/headerBg2.png'), url('assets/headerBg3.png'),
+		url('assets/headerBg4.png');
+	background-size: 33.33%;
 	background-color: black;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: left center, center center, right center;
 	color: var(--white);
 }
 
@@ -60,6 +61,7 @@ header {
 .header-title {
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 2rem;
+	box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
 }
 
 .header-title h1 {
@@ -73,8 +75,8 @@ header {
 
 .header-info h3 {
 	margin-block-end: 2.5rem;
-	font-weight: 500;
-	line-height: 1.2;
+	font-weight: 600;
+	line-height: 1.6;
 }
 
 .btn {
@@ -94,7 +96,7 @@ header {
 	color: black;
 }
 
-section {
+/* section {
 	min-height: 50vh;
 	display: flex;
 	justify-content: center;
@@ -196,4 +198,4 @@ footer {
 	display: grid;
 	place-items: center;
 	text-align: center;
-}
+} */
