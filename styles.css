@@ -77,6 +77,9 @@ header {
 	margin-block-end: 2.5rem;
 	font-weight: 600;
 	line-height: 1.6;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 1rem;
+	border-radius: 0.2rem;
 }
 
 .btn {
@@ -95,107 +98,3 @@ header {
 	background-color: var(--btn-hover-color);
 	color: black;
 }
-
-/* section {
-	min-height: 50vh;
-	display: flex;
-	justify-content: center;
-}
-
-.section-wrapper {
-	display: flex;
-	flex-direction: column;
-	padding-inline: 1rem;
-	padding-block: 2rem;
-}
-
-@media screen and (min-width: 768px) {
-	.section-wrapper {
-		justify-content: space-between;
-		gap: 1.5rem;
-		width: 80vw;
-		max-width: 1200px;
-		flex-direction: row;
-	}
-}
-
-.section-wrapper > * {
-	flex: 1 1 48vw;
-	display: grid;
-	place-items: center;
-}
-
-.about-game {
-	color: var(--text-color);
-}
-
-.about-game h2,
-.about-game p,
-.game-play-info h2,
-.game-play-info p {
-	margin-block-end: 1rem;
-}
-
-.about-game p,
-.game-play-info p {
-	line-height: 1.5;
-}
-
-.about-game .btn {
-	margin-block-start: 1rem;
-}
-
-table {
-	border-collapse: collapse;
-	width: 100%;
-	height: 50%;
-	color: var(--text-color);
-}
-
-th {
-	text-align: left;
-}
-
-td {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-	padding-block-start: 1rem;
-}
-
-.game-play {
-	background-image: url('assets/gameplaybg.jpg');
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-
-	color: var(--white);
-}
-
-video {
-	aspect-ratio: 16/9;
-}
-
-.btn-wrapper {
-	display: flex;
-	justify-content: space-between;
-	gap: 2rem;
-	margin-block-start: 1.5rem;
-}
-
-.btn-wrapper .btn {
-	font-size: 0.8rem;
-	padding-inline: unset;
-	text-align: center;
-	width: 100%;
-}
-
-footer {
-	min-height: 25vh;
-	background-image: url('assets/footerbg.jpg');
-	background-size: cover;
-	background-position: 50% 10%;
-	background-repeat: no-repeat;
-	color: var(--white);
-	display: grid;
-	place-items: center;
-	text-align: center;
-} */
